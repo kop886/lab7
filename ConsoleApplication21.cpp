@@ -7,6 +7,10 @@ int main()
     double x, y, c, x1, x2, h;
     cout << "Enter:  {x1 x2} and step h, c ";
     cin >> x1 >> x2 >> h >> c;
+    if (x1 > x2) {
+        cout << "Error: x1 must be less than or equal to x2." << endl;
+        return 1;  
+    }
     cout << "while" << endl;
     x = x1;
     while (x <= x2 + h) {

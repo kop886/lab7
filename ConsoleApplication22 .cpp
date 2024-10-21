@@ -6,6 +6,7 @@ int main()
 { // {2; 3} h=0.1
     double x, y, c, x1, x2, h;
     cout << "Enter:  {x1 x2} and step h, c ";
+    cout << "Enter: h ";
     cin >> x1 >> x2 >> h >> c;
     cout << "while" << endl;
     x = x1;

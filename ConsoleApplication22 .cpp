@@ -4,14 +4,14 @@
 using namespace std;
 int main()
 { // {2; 3} h=0.1
-    double x, y, c, x1, x2, h;
+    double x, y, c, x1, x2, h,g;
     cout << "Enter:  {x1 x2} and step h, c ";
     cout << "Enter: h ";
     cin >> x1 >> x2 >> h >> c;
     cout << "while" << endl;
     x = x1;
     while (x <= x2 + h) {
-        y = pow(x, 3) + pow(x, 1.0 / 2.0) - 3 * pow(c,4);
+        y = pow(x, 3) + pow(x, 1.0 / 2.0) - 3 * pow(c,4)+pow(g,5);
         cout << setw(12) << x << setw(15) << y << endl;
         x += h;
     }

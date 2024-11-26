@@ -11,7 +11,7 @@ int main()
     cout << "while" << endl;
     x = x1;
     while (x <= x2 + h) {
-        y = pow(x, 3) + pow(x, 1.0 / 2.0) - 3 * c;
+        y = pow(x, 3) + pow(x, 1.0 / 2.0) - 3 * pow(c,4);
         cout << setw(12) << x << setw(15) << y << endl;
         x += h;
     }
